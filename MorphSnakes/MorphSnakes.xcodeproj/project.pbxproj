@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3F2655D1A0A566D0041443C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3F2655C1A0A566D0041443C /* Foundation.framework */; };
+		F3F2655F1A0A566D0041443C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3F2655E1A0A566D0041443C /* CoreGraphics.framework */; };
+		F3F265611A0A566D0041443C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3F265601A0A566D0041443C /* UIKit.framework */; };
+		F3F265671A0A566D0041443C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3F265651A0A566D0041443C /* InfoPlist.strings */; };
+		F3F265691A0A566D0041443C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F265681A0A566D0041443C /* main.m */; };
+		F3F2656D1A0A566D0041443C /* BZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F2656C1A0A566D0041443C /* BZAppDelegate.m */; };
+		F3F265701A0A566D0041443C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3F2656E1A0A566D0041443C /* Main.storyboard */; };
+		F3F265731A0A566D0041443C /* BZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F265721A0A566D0041443C /* BZViewController.m */; };
+		F3F265751A0A566D0041443C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3F265741A0A566D0041443C /* Images.xcassets */; };
+		F3F2657C1A0A566D0041443C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3F2657B1A0A566D0041443C /* XCTest.framework */; };
+		F3F2657D1A0A566D0041443C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3F2655C1A0A566D0041443C /* Foundation.framework */; };
+		F3F2657E1A0A566D0041443C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3F265601A0A566D0041443C /* UIKit.framework */; };
+		F3F265861A0A566D0041443C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3F265841A0A566D0041443C /* InfoPlist.strings */; };
+		F3F265881A0A566D0041443C /* MorphSnakesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F265871A0A566D0041443C /* MorphSnakesTests.m */; };
+		F3F265941A0A58120041443C /* BZImageReader.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F265931A0A58120041443C /* BZImageReader.m */; };
+		F3F265991A0A61F60041443C /* BZColorPixel.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F265981A0A61F60041443C /* BZColorPixel.m */; };
+		F3F2659C1A0A652F0041443C /* UIImage+LK.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F2659B1A0A652F0041443C /* UIImage+LK.m */; };
+		F3F2659E1A0A7F4A0041443C /* seastar2.png in Resources */ = {isa = PBXBuildFile; fileRef = F3F2659D1A0A7F4A0041443C /* seastar2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3F2657F1A0A566D0041443C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3F265511A0A566D0041443C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3F265581A0A566D0041443C;
+			remoteInfo = MorphSnakes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3F265591A0A566D0041443C /* MorphSnakes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorphSnakes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F2655C1A0A566D0041443C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F3F2655E1A0A566D0041443C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F3F265601A0A566D0041443C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F3F265641A0A566D0041443C /* MorphSnakes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MorphSnakes-Info.plist"; sourceTree = "<group>"; };
+		F3F265661A0A566D0041443C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F3F265681A0A566D0041443C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3F2656A1A0A566D0041443C /* MorphSnakes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MorphSnakes-Prefix.pch"; sourceTree = "<group>"; };
+		F3F2656B1A0A566D0041443C /* BZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BZAppDelegate.h; sourceTree = "<group>"; };
+		F3F2656C1A0A566D0041443C /* BZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BZAppDelegate.m; sourceTree = "<group>"; };
+		F3F2656F1A0A566D0041443C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3F265711A0A566D0041443C /* BZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BZViewController.h; sourceTree = "<group>"; };
+		F3F265721A0A566D0041443C /* BZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BZViewController.m; sourceTree = "<group>"; };
+		F3F265741A0A566D0041443C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F3F2657A1A0A566D0041443C /* MorphSnakesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorphSnakesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F2657B1A0A566D0041443C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F3F265831A0A566D0041443C /* MorphSnakesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MorphSnakesTests-Info.plist"; sourceTree = "<group>"; };
+		F3F265851A0A566D0041443C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F3F265871A0A566D0041443C /* MorphSnakesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MorphSnakesTests.m; sourceTree = "<group>"; };
+		F3F265921A0A58120041443C /* BZImageReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZImageReader.h; sourceTree = "<group>"; };
+		F3F265931A0A58120041443C /* BZImageReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZImageReader.m; sourceTree = "<group>"; };
+		F3F265971A0A61F60041443C /* BZColorPixel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZColorPixel.h; sourceTree = "<group>"; };
+		F3F265981A0A61F60041443C /* BZColorPixel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZColorPixel.m; sourceTree = "<group>"; };
+		F3F2659A1A0A652F0041443C /* UIImage+LK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LK.h"; sourceTree = "<group>"; };
+		F3F2659B1A0A652F0041443C /* UIImage+LK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LK.m"; sourceTree = "<group>"; };
+		F3F2659D1A0A7F4A0041443C /* seastar2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seastar2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3F265561A0A566D0041443C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F2655F1A0A566D0041443C /* CoreGraphics.framework in Frameworks */,
+				F3F265611A0A566D0041443C /* UIKit.framework in Frameworks */,
+				F3F2655D1A0A566D0041443C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F265771A0A566D0041443C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F2657C1A0A566D0041443C /* XCTest.framework in Frameworks */,
+				F3F2657E1A0A566D0041443C /* UIKit.framework in Frameworks */,
+				F3F2657D1A0A566D0041443C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3F265501A0A566D0041443C = {
+			isa = PBXGroup;
+			children = (
+				F3F2659D1A0A7F4A0041443C /* seastar2.png */,
+				F3F265911A0A57720041443C /* code */,
+				F3F265621A0A566D0041443C /* MorphSnakes */,
+				F3F265811A0A566D0041443C /* MorphSnakesTests */,
+				F3F2655B1A0A566D0041443C /* Frameworks */,
+				F3F2655A1A0A566D0041443C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3F2655A1A0A566D0041443C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3F265591A0A566D0041443C /* MorphSnakes.app */,
+				F3F2657A1A0A566D0041443C /* MorphSnakesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3F2655B1A0A566D0041443C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3F2655C1A0A566D0041443C /* Foundation.framework */,
+				F3F2655E1A0A566D0041443C /* CoreGraphics.framework */,
+				F3F265601A0A566D0041443C /* UIKit.framework */,
+				F3F2657B1A0A566D0041443C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3F265621A0A566D0041443C /* MorphSnakes */ = {
+			isa = PBXGroup;
+			children = (
+				F3F2656B1A0A566D0041443C /* BZAppDelegate.h */,
+				F3F2656C1A0A566D0041443C /* BZAppDelegate.m */,
+				F3F2656E1A0A566D0041443C /* Main.storyboard */,
+				F3F265711A0A566D0041443C /* BZViewController.h */,
+				F3F265721A0A566D0041443C /* BZViewController.m */,
+				F3F265741A0A566D0041443C /* Images.xcassets */,
+				F3F265631A0A566D0041443C /* Supporting Files */,
+			);
+			path = MorphSnakes;
+			sourceTree = "<group>";
+		};
+		F3F265631A0A566D0041443C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3F265641A0A566D0041443C /* MorphSnakes-Info.plist */,
+				F3F265651A0A566D0041443C /* InfoPlist.strings */,
+				F3F265681A0A566D0041443C /* main.m */,
+				F3F2656A1A0A566D0041443C /* MorphSnakes-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3F265811A0A566D0041443C /* MorphSnakesTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3F265871A0A566D0041443C /* MorphSnakesTests.m */,
+				F3F265821A0A566D0041443C /* Supporting Files */,
+			);
+			path = MorphSnakesTests;
+			sourceTree = "<group>";
+		};
+		F3F265821A0A566D0041443C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3F265831A0A566D0041443C /* MorphSnakesTests-Info.plist */,
+				F3F265841A0A566D0041443C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3F265911A0A57720041443C /* code */ = {
+			isa = PBXGroup;
+			children = (
+				F3F2659A1A0A652F0041443C /* UIImage+LK.h */,
+				F3F2659B1A0A652F0041443C /* UIImage+LK.m */,
+				F3F265921A0A58120041443C /* BZImageReader.h */,
+				F3F265931A0A58120041443C /* BZImageReader.m */,
+				F3F265971A0A61F60041443C /* BZColorPixel.h */,
+				F3F265981A0A61F60041443C /* BZColorPixel.m */,
+			);
+			path = code;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3F265581A0A566D0041443C /* MorphSnakes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3F2658B1A0A566D0041443C /* Build configuration list for PBXNativeTarget "MorphSnakes" */;
+			buildPhases = (
+				F3F265551A0A566D0041443C /* Sources */,
+				F3F265561A0A566D0041443C /* Frameworks */,
+				F3F265571A0A566D0041443C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MorphSnakes;
+			productName = MorphSnakes;
+			productReference = F3F265591A0A566D0041443C /* MorphSnakes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3F265791A0A566D0041443C /* MorphSnakesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3F2658E1A0A566D0041443C /* Build configuration list for PBXNativeTarget "MorphSnakesTests" */;
+			buildPhases = (
+				F3F265761A0A566D0041443C /* Sources */,
+				F3F265771A0A566D0041443C /* Frameworks */,
+				F3F265781A0A566D0041443C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3F265801A0A566D0041443C /* PBXTargetDependency */,
+			);
+			name = MorphSnakesTests;
+			productName = MorphSnakesTests;
+			productReference = F3F2657A1A0A566D0041443C /* MorphSnakesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3F265511A0A566D0041443C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BZ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Bouzou;
+				TargetAttributes = {
+					F3F265791A0A566D0041443C = {
+						TestTargetID = F3F265581A0A566D0041443C;
+					};
+				};
+			};
+			buildConfigurationList = F3F265541A0A566D0041443C /* Build configuration list for PBXProject "MorphSnakes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3F265501A0A566D0041443C;
+			productRefGroup = F3F2655A1A0A566D0041443C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3F265581A0A566D0041443C /* MorphSnakes */,
+				F3F265791A0A566D0041443C /* MorphSnakesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3F265571A0A566D0041443C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F2659E1A0A7F4A0041443C /* seastar2.png in Resources */,
+				F3F265751A0A566D0041443C /* Images.xcassets in Resources */,
+				F3F265671A0A566D0041443C /* InfoPlist.strings in Resources */,
+				F3F265701A0A566D0041443C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F265781A0A566D0041443C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F265861A0A566D0041443C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3F265551A0A566D0041443C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F265941A0A58120041443C /* BZImageReader.m in Sources */,
+				F3F265731A0A566D0041443C /* BZViewController.m in Sources */,
+				F3F2659C1A0A652F0041443C /* UIImage+LK.m in Sources */,
+				F3F265991A0A61F60041443C /* BZColorPixel.m in Sources */,
+				F3F2656D1A0A566D0041443C /* BZAppDelegate.m in Sources */,
+				F3F265691A0A566D0041443C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F265761A0A566D0041443C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F265881A0A566D0041443C /* MorphSnakesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3F265801A0A566D0041443C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3F265581A0A566D0041443C /* MorphSnakes */;
+			targetProxy = F3F2657F1A0A566D0041443C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3F265651A0A566D0041443C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3F265661A0A566D0041443C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F3F2656E1A0A566D0041443C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3F2656F1A0A566D0041443C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3F265841A0A566D0041443C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3F265851A0A566D0041443C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3F265891A0A566D0041443C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F3F2658A1A0A566D0041443C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3F2658C1A0A566D0041443C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MorphSnakes/MorphSnakes-Prefix.pch";
+				INFOPLIST_FILE = "MorphSnakes/MorphSnakes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F3F2658D1A0A566D0041443C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MorphSnakes/MorphSnakes-Prefix.pch";
+				INFOPLIST_FILE = "MorphSnakes/MorphSnakes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F3F2658F1A0A566D0041443C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MorphSnakes.app/MorphSnakes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MorphSnakes/MorphSnakes-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MorphSnakesTests/MorphSnakesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F3F265901A0A566D0041443C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MorphSnakes.app/MorphSnakes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MorphSnakes/MorphSnakes-Prefix.pch";
+				INFOPLIST_FILE = "MorphSnakesTests/MorphSnakesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3F265541A0A566D0041443C /* Build configuration list for PBXProject "MorphSnakes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F265891A0A566D0041443C /* Debug */,
+				F3F2658A1A0A566D0041443C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3F2658B1A0A566D0041443C /* Build configuration list for PBXNativeTarget "MorphSnakes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F2658C1A0A566D0041443C /* Debug */,
+				F3F2658D1A0A566D0041443C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3F2658E1A0A566D0041443C /* Build configuration list for PBXNativeTarget "MorphSnakesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F2658F1A0A566D0041443C /* Debug */,
+				F3F265901A0A566D0041443C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3F265511A0A566D0041443C /* Project object */;
+}
